@@ -1,0 +1,40 @@
+1. Better User Experience (UX)
+Delete transactions → Add a ❌ button for each list item so users can remove mistakes.
+
+Edit transactions → Allow clicking an entry to modify description/amount/type.
+
+Clear all transactions → One button to reset everything.
+
+2. UI Improvements
+Color coding:
+
+Income = green
+
+Expense = red
+
+Highlight low balance (you already have text, but you can also change the background or shake the card).
+
+Sort transactions → Latest first, or group income/expenses separately.
+
+3. Data & Insights
+Date & time → Store a timestamp with each transaction and display it.
+
+Monthly summary → Filter and calculate totals for the current month.
+
+Charts → Use a library like Chart.js to show income vs expense visually (pie chart or bar chart).
+
+4. Extra Features
+Search/filter transactions by keyword or type.
+
+Export data → Download transactions as CSV or JSON.
+
+Import data → Allow uploading a JSON backup to restore transactions.
+
+Dark mode → Toggle between light and dark themes (save preference in localStorage).
+
+5. Advanced Ideas
+Recurring transactions (like monthly rent/salary).
+
+Budget goals → Set a monthly spending limit and warn if exceeded.
+
+Category system (Food, Transport, Rent, etc.) and show category-wise spending chart

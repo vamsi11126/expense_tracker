@@ -1,0 +1,69 @@
+Project Title
+Personal Expense Tracker (Web App)
+
+Description
+This is a browser-based expense management tool that helps users track their income, expenses, and balance in real-time.
+It stores all data locally using the browser’s localStorage, so the information persists even after refreshing or closing the browser.
+
+The app allows users to:
+
+Add transactions with a description, amount, and type (income or expense).
+
+Validate inputs (description must be text, amount must be numeric).
+
+View a transaction history list.
+
+Automatically calculate total income, total expenses, and current balance.
+
+Show a Low Balance warning if expenses exceed income.
+
+Features
+Add New Transactions
+
+Input description, amount, and type (radio buttons for income/expense).
+
+Validation ensures description contains only letters and spaces.
+
+Amounts are stored as numbers for calculation.
+
+Persistent Storage
+
+Transactions are saved in localStorage so they remain after reload.
+
+Automatic Calculations
+
+Totals for income and expense are updated instantly.
+
+Balance = Income − Expense.
+
+Low balance highlighted in UI.
+
+Transaction History
+
+Displays all previous entries in a list format.
+
+Responsive UI
+
+Works in browser without backend dependencies.
+
+Tech Stack
+HTML – Page structure & form inputs.
+
+CSS – Styling and layout (can be expanded for better UI).
+
+JavaScript – Core logic for validation, calculations, and rendering.
+
+LocalStorage API – Data persistence.
+
+Possible Improvements
+Delete & edit transactions.
+
+Category tagging.
+
+Search & filter.
+
+Graphs using Chart.js.
+
+Export & import data.
+
+Dark mode toggle.

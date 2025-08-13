@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💰 Personal Budget Tracker</h1>
+
+        <!-- Balance Section -->
+        <div class="balance">
+            <h2>Your Balance</h2>
+            <h3 id="balance">₹0</h3>
+        </div>
+
+        <!-- Income & Expense Summary -->
+        <div class="summary">
+            <div class="income">
+                <h4>Income</h4>
+                <p id="income">₹0</p>
+            </div>
+            <div class="expense">
+                <h4>Expense</h4>
+                <p id="expense">₹0</p>
+            </div>
+        </div>
+
+        <!-- Transaction Form -->
+        <form id="transaction-form">
+            <h3>Add New Transaction</h3>
+            <label for="desc">Description</label>
+            <input type="text" id="desc" placeholder="e.g. Salary" required>
+
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" placeholder="e.g. 5000" required>
+
+            <label>Type</label>
+            <div class="type-options">
+                <input type="radio" name="type" value="income" checked> Income
+                <input type="radio" name="type" value="expense"> Expense
+            </div>
+
+            <button type="submit" class="js-add-button">Add Transaction</button>
+        </form>
+
+
+        <!-- Transaction List -->
+         <div>
+            <div>
+                <h3>Transactions</h3>
+                <ul id="transaction-list"></ul>
+            </div>
+            <div>
+                <button class="js-reset-button">Reset</button>
+            </div>
+         </div>
+
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
